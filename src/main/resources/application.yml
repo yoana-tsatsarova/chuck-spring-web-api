@@ -1,0 +1,7 @@
+server:
+  port: 8001
+joker:
+  basePath: /api/jokes
+  contentType: application/json
+  source:
+    url: https://jokes.salt.dev/api/jokes/random
